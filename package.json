@@ -4,7 +4,8 @@
   "description": "Express implementation of Verbose CMS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -L test/express.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/verbosejs/verbose-express/issues"
   },
-  "homepage": "https://github.com/verbosejs/verbose-express#readme"
+  "homepage": "https://github.com/verbosejs/verbose-express#readme",
+  "dependencies": {
+    "debug": "^2.6.8",
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "hjs": "^0.0.6"
+  }
 }
