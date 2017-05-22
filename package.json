@@ -1,0 +1,19 @@
+{
+  "name": "verbose-express",
+  "version": "0.0.1",
+  "description": "Express implementation of Verbose CMS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/verbosejs/verbose-express.git"
+  },
+  "author": "Neil Barton <neil@roughcoder.com> (http://www.roughcoder.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/verbosejs/verbose-express/issues"
+  },
+  "homepage": "https://github.com/verbosejs/verbose-express#readme"
+}
